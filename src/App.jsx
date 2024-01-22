@@ -1,4 +1,5 @@
 import "./app.scss"
+import Contact from "./components/Contact"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Parallax from "./components/Parallax"
@@ -23,7 +24,9 @@ function App() {
       <section>Project4</section> */}
       <Projects />
 
-      <section id="Contact"><a href="#">Contact</a></section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   )
 }
